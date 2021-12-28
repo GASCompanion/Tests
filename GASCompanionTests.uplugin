@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "GASCompanionTests",
+	"Description": "Unit / Feature tests for GAS Companion",
+	"Category": "Testing",
+	"CreatedBy": "Mickael Daniel <mklabs>",
+	"CreatedByURL": "https://mklabs.github.io",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GASCompanionRuntimeTests",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GASCompanion",
+			"Enabled": true
+		}
+	]
+}
