@@ -9,26 +9,29 @@ public class GASCompanionRuntimeTests : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicIncludePaths.AddRange(
-			new string[] {
+			new string[]
+			{
 				// ... add public include paths required here ...
 			}
-			);
+		);
 
 
 		PrivateIncludePaths.AddRange(
-			new string[] {
+			new string[]
+			{
 				// ... add other private include paths required here ...
 			}
-			);
+		);
 
 
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
+				"GameplayAbilities",
 				// ... add other public dependencies that you statically link with here ...
 			}
-			);
+		);
 
 
 		PrivateDependencyModuleNames.AddRange(
@@ -40,9 +43,9 @@ public class GASCompanionRuntimeTests : ModuleRules
 				"SlateCore",
 				"GASCompanion",
 				"ModularGASCompanion",
-				"GameplayAbilities"
+				"EnhancedInput",
 			}
-			);
+		);
 
 
 		DynamicallyLoadedModuleNames.AddRange(
@@ -50,6 +53,6 @@ public class GASCompanionRuntimeTests : ModuleRules
 			{
 				// ... add any modules that your module loads dynamically here ...
 			}
-			);
+		);
 	}
 }

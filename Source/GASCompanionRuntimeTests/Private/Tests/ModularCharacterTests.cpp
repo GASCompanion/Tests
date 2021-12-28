@@ -4,46 +4,17 @@
 #include "Abilities/MGCAbilitySystemComponent.h"
 #include "Abilities/Attributes/GSCAttributeSet.h"
 #include "ModularGameplayActors/ModularCharacter.h"
+#include "Utils/ModularActorTestSuite.h"
 
 #define GET_FIELD_CHECKED(Class, Field) FindFieldChecked<FProperty>(Class::StaticClass(), GET_MEMBER_NAME_CHECKED(Class, Field))
 #define CONSTRUCT_CLASS(Class, Name) Class* Name = NewObject<Class>(GetTransientPackage(), FName(TEXT(#Name)))
 
-static UDataTable* CreateAttributesDataTable()
-{
-	FString CSV(TEXT("---,BaseValue,MinValue,MaxValue,DerivedAttributeInfo,bCanStack"));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.MaxHealth,\"500.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.Health,\"500.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.MaxStamina,\"90.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.Stamina,\"90.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.MaxMana,\"100.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.Mana,\"100.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-	CSV.Append(TEXT("\r\nGSCAttributeSet.StaminaRegenRate,\"45.000000\",\"0.000000\",\"1.000000\",\"\",\"False\""));
-
-	UDataTable* DataTable = NewObject<UDataTable>(GetTransientPackage(), FName(TEXT("TempDataTable")));
-	DataTable->RowStruct = FAttributeMetaData::StaticStruct();
-	DataTable->CreateTableFromCSVString(CSV);
-
-	const FAttributeMetaData* Row = (const FAttributeMetaData*)DataTable->GetRowMap()["GSCAttributeSet.MaxHealth"];
-	if (Row)
-	{
-		check(Row->BaseValue == 500.f);
-	}
-	return DataTable;
-}
-
-class ModularCharacterTestSuite
+class FModularCharacterTestSuite : public FModularActorTestSuite
 {
 public:
-	ModularCharacterTestSuite(UWorld* WorldIn, FAutomationTestBase* TestIn)
-		: World(WorldIn)
-	    , Test(TestIn)
+	FModularCharacterTestSuite(UWorld* WorldIn, FAutomationTestBase* TestIn)
+		: FModularActorTestSuite(WorldIn, TestIn)
 	{
-		// run before each test
-
-		// set up the source actor
-		SourceActor = World->SpawnActor<AModularCharacter>();
-		SourceASC = SourceActor->GetAbilitySystemComponent();
-
 		UMGCAbilitySystemComponent* ModularSourceASC = Cast<UMGCAbilitySystemComponent>(SourceASC);
 		if (ModularSourceASC)
 		{
@@ -55,10 +26,6 @@ public:
 			ModularSourceASC->GrantDefaultAbilitiesAndAttributes(SourceActor, SourceActor);
 		}
 
-		// set up the destination actor
-		TargetActor = World->SpawnActor<AModularCharacter>();
-		TargetASC = TargetActor->GetAbilitySystemComponent();
-
 		UMGCAbilitySystemComponent* ModularTargetASC = Cast<UMGCAbilitySystemComponent>(TargetASC);
 		if (ModularTargetASC)
 		{
@@ -68,22 +35,6 @@ public:
 			ModularTargetASC->GrantedAttributes.Add(AttributesDefinition);
 
 			ModularTargetASC->GrantDefaultAbilitiesAndAttributes(TargetActor, TargetActor);
-		}
-	}
-
-	~ModularCharacterTestSuite()
-	{
-		// run after each test
-
-		// destroy the actors
-		if (SourceActor)
-		{
-			World->EditorDestroyActor(SourceActor, false);
-		}
-
-		if (TargetActor)
-		{
-			World->EditorDestroyActor(TargetActor, false);
 		}
 	}
 
@@ -162,45 +113,9 @@ public:
 		// Confirm the damage attribute itself was reset to 0 when it was applied to health
 		Test->TestEqual(TEXT("Damage Applied"), TargetASC->GetNumericAttributeBase(UGSCAttributeSet::GetDamageAttribute()), 0.f);
 	}
-
-private:
-	UWorld* World;
-	FAutomationTestBase* Test;
-
-	AModularCharacter* SourceActor;
-	UAbilitySystemComponent* SourceASC;
-
-	AModularCharacter* TargetActor;
-	UAbilitySystemComponent* TargetASC;
-
-	// Test Helpers
-
-	template <typename MODIFIER_T>
-	FGameplayModifierInfo& AddModifier(UGameplayEffect* Effect, FProperty* Property, EGameplayModOp::Type Op, const MODIFIER_T& Magnitude)
-	{
-		int32 Idx = Effect->Modifiers.Num();
-		Effect->Modifiers.SetNum(Idx + 1);
-		FGameplayModifierInfo& Info = Effect->Modifiers[Idx];
-		Info.ModifierMagnitude = Magnitude;
-		Info.ModifierOp = Op;
-		Info.Attribute.SetUProperty(Property);
-		return Info;
-	}
 };
 
 IMPLEMENT_COMPLEX_AUTOMATION_TEST(ModularCharacterTests, "GASCompanionTests.ModularCharacter", EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter)
-
-struct FTestDefinition
-{
-	FString FunctionName;
-	FString Description;
-
-	FTestDefinition(const FString& FunctionName, const FString& Description)
-		: FunctionName(FunctionName),
-		  Description(Description)
-	{
-	}
-};
 
 void ModularCharacterTests::GetTests(TArray<FString>& OutBeautifiedNames, TArray<FString>& OutTestCommands) const
 {
@@ -223,14 +138,14 @@ bool ModularCharacterTests::RunTest(const FString& Parameters)
 	const FString TestFuncName = Parameters;
 	TESTS_LOG(Display, TEXT("Running test ... %s (Param: %s)"), *TestName, *TestFuncName)
 
-	typedef void (ModularCharacterTestSuite::*TestFunc)();
+	typedef void (FModularCharacterTestSuite::*TestFunc)();
 
 	// Find the matching test
 	TMap<FString, TestFunc> NameToTestFunc;
-	NameToTestFunc.Add("Test_Basics", &ModularCharacterTestSuite::Test_Basics);
-	NameToTestFunc.Add("Test_Attributes", &ModularCharacterTestSuite::Test_Attributes);
-	NameToTestFunc.Add("Test_InstantDamage", &ModularCharacterTestSuite::Test_InstantDamage);
-	NameToTestFunc.Add("Test_DamageAttribute", &ModularCharacterTestSuite::Test_DamageAttribute);
+	NameToTestFunc.Add("Test_Basics", &FModularCharacterTestSuite::Test_Basics);
+	NameToTestFunc.Add("Test_Attributes", &FModularCharacterTestSuite::Test_Attributes);
+	NameToTestFunc.Add("Test_InstantDamage", &FModularCharacterTestSuite::Test_InstantDamage);
+	NameToTestFunc.Add("Test_DamageAttribute", &FModularCharacterTestSuite::Test_DamageAttribute);
 
 	const TestFunc TestFunction = NameToTestFunc.FindChecked(TestFuncName);
 	if (TestFunction == nullptr)
@@ -250,7 +165,7 @@ bool ModularCharacterTests::RunTest(const FString& Parameters)
 	// Actual Test
 	const uint64 InitialFrameCounter = GFrameCounter;
 	{
-		ModularCharacterTestSuite Tester(World, this);
+		FModularCharacterTestSuite Tester(World, this);
 		(Tester.*TestFunction)();
 	}
 	GFrameCounter = InitialFrameCounter;
