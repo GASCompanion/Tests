@@ -43,6 +43,7 @@ public class GASCompanionRuntimeTests : ModuleRules
 				"SlateCore",
 				"GASCompanion",
 				"EnhancedInput",
+				"GameplayTags"
 			}
 		);
 
