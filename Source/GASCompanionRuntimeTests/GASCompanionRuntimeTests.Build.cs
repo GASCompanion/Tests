@@ -42,7 +42,6 @@ public class GASCompanionRuntimeTests : ModuleRules
 				"Slate",
 				"SlateCore",
 				"GASCompanion",
-				"ModularGASCompanion",
 				"EnhancedInput",
 			}
 		);

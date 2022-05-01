@@ -2,9 +2,8 @@
 
 #include "Utils/ModularActorTestSuite.h"
 
-#include "Abilities/MGCAbilitySystemComponent.h"
 #include "Abilities/Attributes/GSCAttributeSet.h"
-#include "ModularGameplayActors/ModularCharacter.h"
+#include "ModularGameplayActors/GSCModularCharacter.h"
 
 FModularActorTestSuite::FModularActorTestSuite(UWorld* WorldIn, FAutomationTestBase* TestIn)
 	: World(WorldIn)
@@ -13,11 +12,11 @@ FModularActorTestSuite::FModularActorTestSuite(UWorld* WorldIn, FAutomationTestB
 	// run before each test
 
 	// set up the source actor
-	SourceActor = World->SpawnActor<AModularCharacter>();
+	SourceActor = World->SpawnActor<AGSCModularCharacter>();
 	SourceASC = SourceActor->GetAbilitySystemComponent();
 
 	// set up the destination actor
-	TargetActor = World->SpawnActor<AModularCharacter>();
+	TargetActor = World->SpawnActor<AGSCModularCharacter>();
 	TargetASC = TargetActor->GetAbilitySystemComponent();
 }
 

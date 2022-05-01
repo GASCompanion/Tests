@@ -1,9 +1,9 @@
 ﻿// Copyright 2021 Mickael Daniel. All Rights Reserved.
 
 #include "GASCompanionTestsLog.h"
-#include "Abilities/MGCAbilitySystemComponent.h"
+#include "Abilities/GSCAbilitySystemComponent.h"
 #include "Abilities/Attributes/GSCAttributeSet.h"
-#include "ModularGameplayActors/ModularCharacter.h"
+#include "ModularGameplayActors/GSCModularCharacter.h"
 #include "Utils/ModularActorTestSuite.h"
 
 #define GET_FIELD_CHECKED(Class, Field) FindFieldChecked<FProperty>(Class::StaticClass(), GET_MEMBER_NAME_CHECKED(Class, Field))
@@ -15,10 +15,10 @@ public:
 	FModularCharacterTestSuite(UWorld* WorldIn, FAutomationTestBase* TestIn)
 		: FModularActorTestSuite(WorldIn, TestIn)
 	{
-		UMGCAbilitySystemComponent* ModularSourceASC = Cast<UMGCAbilitySystemComponent>(SourceASC);
+		UGSCAbilitySystemComponent* ModularSourceASC = Cast<UGSCAbilitySystemComponent>(SourceASC);
 		if (ModularSourceASC)
 		{
-			FMGCAttributeSetDefinition AttributesDefinition;
+			FGSCAttributeSetDefinition AttributesDefinition;
 			AttributesDefinition.AttributeSet = UGSCAttributeSet::StaticClass();
 			AttributesDefinition.InitializationData = CreateAttributesDataTable();
 			ModularSourceASC->GrantedAttributes.Add(AttributesDefinition);
@@ -26,10 +26,10 @@ public:
 			ModularSourceASC->GrantDefaultAbilitiesAndAttributes(SourceActor, SourceActor);
 		}
 
-		UMGCAbilitySystemComponent* ModularTargetASC = Cast<UMGCAbilitySystemComponent>(TargetASC);
+		UGSCAbilitySystemComponent* ModularTargetASC = Cast<UGSCAbilitySystemComponent>(TargetASC);
 		if (ModularTargetASC)
 		{
-			FMGCAttributeSetDefinition AttributesDefinition;
+			FGSCAttributeSetDefinition AttributesDefinition;
 			AttributesDefinition.AttributeSet = UGSCAttributeSet::StaticClass();
 			AttributesDefinition.InitializationData = CreateAttributesDataTable();
 			ModularTargetASC->GrantedAttributes.Add(AttributesDefinition);
@@ -40,12 +40,12 @@ public:
 
 	void Test_Basics()
 	{
-		UMGCAbilitySystemComponent* SourceModularASC = SourceActor->FindComponentByClass<UMGCAbilitySystemComponent>();
-		Test->TestTrue("Source Actor has UMGCAbilitySystemComponent", SourceModularASC != nullptr);
+		UGSCAbilitySystemComponent* SourceModularASC = SourceActor->FindComponentByClass<UGSCAbilitySystemComponent>();
+		Test->TestTrue("Source Actor has UGSCAbilitySystemComponent", SourceModularASC != nullptr);
 		Test->TestTrue("Source Actor ASC is the same returned by IAbilitySystemInterface", SourceModularASC == SourceASC);
 
-		UMGCAbilitySystemComponent* TargetModularASC = TargetActor->FindComponentByClass<UMGCAbilitySystemComponent>();
-		Test->TestTrue("Target Actor has UMGCAbilitySystemComponent", TargetModularASC != nullptr);
+		UGSCAbilitySystemComponent* TargetModularASC = TargetActor->FindComponentByClass<UGSCAbilitySystemComponent>();
+		Test->TestTrue("Target Actor has UGSCAbilitySystemComponent", TargetModularASC != nullptr);
 		Test->TestTrue("Source Actor ASC is the same returned by IAbilitySystemInterface", TargetModularASC == TargetASC);
 
 		Test->TestNotEqual("Source and Target ASCs are not the same address", SourceModularASC, TargetModularASC);

@@ -4,8 +4,8 @@
 
 #include "GameplayEffect.h"
 
+class AGSCModularCharacter;
 class UAbilitySystemComponent;
-class AModularCharacter;
 
 struct FTestDefinition
 {
@@ -30,10 +30,10 @@ protected:
 	UWorld* World;
 	FAutomationTestBase* Test;
 
-	AModularCharacter* SourceActor;
+	AGSCModularCharacter* SourceActor;
 	UAbilitySystemComponent* SourceASC;
 
-	AModularCharacter* TargetActor;
+	AGSCModularCharacter* TargetActor;
 	UAbilitySystemComponent* TargetASC;
 
 	// Test Helpers

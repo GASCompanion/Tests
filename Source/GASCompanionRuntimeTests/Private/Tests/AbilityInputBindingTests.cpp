@@ -1,10 +1,10 @@
 ﻿// Copyright 2021 Mickael Daniel. All Rights Reserved.
 
 #include "GASCompanionTestsLog.h"
-#include "Abilities/MGCAbilityInputBindingComponent.h"
-#include "Abilities/MGCAbilitySystemComponent.h"
+#include "Components/GSCAbilityInputBindingComponent.h"
+#include "Abilities/GSCAbilitySystemComponent.h"
 #include "Abilities/Attributes/GSCAttributeSet.h"
-#include "ModularGameplayActors/ModularCharacter.h"
+#include "ModularGameplayActors/GSCModularCharacter.h"
 #include "Utils/ModularActorTestSuite.h"
 
 class FAbilityInputBindingTestSuite : public FModularActorTestSuite
@@ -13,17 +13,17 @@ public:
 	FAbilityInputBindingTestSuite(UWorld* WorldIn, FAutomationTestBase* TestIn)
 		: FModularActorTestSuite(WorldIn, TestIn)
 	{
-		UMGCAbilityInputBindingComponent* InputBindingComponent = SourceActor->FindComponentByClass<UMGCAbilityInputBindingComponent>();
+		UGSCAbilityInputBindingComponent* InputBindingComponent = SourceActor->FindComponentByClass<UGSCAbilityInputBindingComponent>();
 		if (InputBindingComponent == nullptr)
 		{
-			InputBindingComponent = NewObject<UMGCAbilityInputBindingComponent>(SourceActor, TEXT("AbilityInputBindingComponent_Test_0"));
+			InputBindingComponent = NewObject<UGSCAbilityInputBindingComponent>(SourceActor, TEXT("AbilityInputBindingComponent_Test_0"));
 			InputBindingComponent->RegisterComponent();
 		}
 
-		UMGCAbilitySystemComponent* ModularSourceASC = Cast<UMGCAbilitySystemComponent>(SourceASC);
+		UGSCAbilitySystemComponent* ModularSourceASC = Cast<UGSCAbilitySystemComponent>(SourceASC);
 		if (ModularSourceASC)
 		{
-			FMGCAbilityInputMapping AbilityInputMapping;
+			FGSCAbilityInputMapping AbilityInputMapping;
 			AbilityInputMapping.Ability = UGameplayAbility::StaticClass();
 
 			InputActionFixture = Cast<UInputAction>(StaticLoadObject(UInputAction::StaticClass(), nullptr, TEXT("/GASCompanionTests/Fixtures/IA_Test_Fixture.IA_Test_Fixture")));
@@ -38,8 +38,8 @@ public:
 
 	void Test_GetBoundInputActionForAbility()
 	{
-		UMGCAbilityInputBindingComponent* SourceInputBindingComponent = SourceActor->FindComponentByClass<UMGCAbilityInputBindingComponent>();
-		Test->TestTrue("Source Actor has UMGCAbilityInputBindingComponent", SourceInputBindingComponent != nullptr);
+		UGSCAbilityInputBindingComponent* SourceInputBindingComponent = SourceActor->FindComponentByClass<UGSCAbilityInputBindingComponent>();
+		Test->TestTrue("Source Actor has UGSCAbilityInputBindingComponent", SourceInputBindingComponent != nullptr);
 
 		const TSubclassOf<UGameplayAbility> AbilityToActivate = UGameplayAbility::StaticClass();
 		const UGameplayAbility* AbilityCDO = AbilityToActivate.GetDefaultObject();
