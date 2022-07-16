@@ -1,0 +1,157 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "PC_MATERIEL_NET",
+			"instance": "PC_MATERIEL_NET-3744",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 10 (21H1) [10.0.19043.1826] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce GTX 1660",
+			"cPUModel": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+			"rAMInGB": 32,
+			"renderMode": "SM5",
+			"rHI": ""
+		}
+	],
+	"reportCreatedOn": "2022.07.16-17.09.31",
+	"succeeded": 2,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 1.1809316873550415,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "has definitions",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.has definitions",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-3744",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Periodic, BaseName: Damage_Periodic, ParentClass: BP_GE_Template_Damage_Periodic_C, AssetPrefix: GE_, TooltipText: Damage Over Time Effect\n\nGameplay Effect with a set Duration that periodically apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Instant, BaseName: Heal, ParentClass: BP_GE_Template_Heal_Instant_C, AssetPrefix: GE_, TooltipText: Instant Heal Effect\n\nInstant Gameplay Effect that increase Health by a set amount",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Periodic, BaseName: Heal_Periodic, ParentClass: BP_GE_Template_Heal_Periodic_C, AssetPrefix: GE_, TooltipText: Heal Over Time Effect\n\nGameplay Effect with a set Duration that periodically increase the Health Attribute",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Cost, BaseName: Cost, ParentClass: BP_GE_Template_Cost_C, AssetPrefix: GE_, TooltipText: Cost Gameplay Effect\n\nInstant Gameplay meant to be used as a Cost Gameplay Effect in Abilities, substracts one more more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen, BaseName: Regen, ParentClass: BP_GE_Template_Regen_C, AssetPrefix: GE_, TooltipText: Gameplay Effect with an Infinite Duration that periodically increase one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen Negative, BaseName: Regen_Negative, ParentClass: BP_GE_Template_Regen_Negative_C, AssetPrefix: GE_, TooltipText: Gameplay Effect an with Infinite Duration that periodically decrease one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.07.16-15.09.30"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "should create Gameplay Effect blueprint",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.should create Gameplay Effect blueprint",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-3744",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to create BP from definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 58,
+					"timestamp": "2022.07.16-15.09.31"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to save BP for filename: ../../../../../../actions-runner/_work/GASCompanion-Plugin/GASCompanion-Plugin/_work/TP_BlankBP/Content/Developers/GASCompanion/GSCCreationMenu/GE_Damage (/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\actions-runner\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 129,
+					"timestamp": "2022.07.16-15.09.31"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
