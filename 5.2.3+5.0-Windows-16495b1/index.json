@@ -1,0 +1,392 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "PC_MATERIEL_NET",
+			"instance": "PC_MATERIEL_NET-4184",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 10 (21H1) [10.0.19043.1826] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce GTX 1660",
+			"cPUModel": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+			"rAMInGB": 16,
+			"renderMode": "SM5",
+			"rHI": ""
+		}
+	],
+	"reportCreatedOn": "2022.08.06-22.31.48",
+	"succeeded": 6,
+	"succeededWithWarnings": 0,
+	"failed": 1,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 13.617544174194336,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "Should return bound input action for a granted ability",
+			"fullTestPath": "GASCompanion.Runtime.Ability Input Binding.Should return bound input action for a granted ability",
+			"state": "Fail",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 29,
+					"timestamp": "2022.08.06-20.31.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Failed to load '/GASCompanion/Tests/Fixtures/IA_Test_Fixture': Can't find file.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\Linker.cpp",
+					"lineNumber": 784,
+					"timestamp": "2022.08.06-20.31.42"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Failed to load '/GASCompanion/Tests/Fixtures/IA_Test_Fixture': Can't find file.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\Linker.cpp",
+					"lineNumber": 784,
+					"timestamp": "2022.08.06-20.31.43"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Failed to find object 'InputAction /GASCompanion/Tests/Fixtures/IA_Test_Fixture.IA_Test_Fixture'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\UObjectGlobals.cpp",
+					"lineNumber": 969,
+					"timestamp": "2022.08.06-20.31.43"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Unable to find Input Action fixture /GASCompanion/Tests/Fixtures/IA_Test_Fixture.IA_Test_Fixture",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 63,
+					"timestamp": "2022.08.06-20.31.43"
+				},
+				{
+					"event":
+					{
+						"type": "Error",
+						"message": "Make sure to setup `Plugins > GASCompanion Tests > Setup Tests` to true before running tests.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 64,
+					"timestamp": "2022.08.06-20.31.43"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 113,
+					"timestamp": "2022.08.06-20.31.43"
+				}
+			],
+			"warnings": 3,
+			"errors": 2,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "has definitions",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.has definitions",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Periodic, BaseName: Damage_Periodic, ParentClass: BP_GE_Template_Damage_Periodic_C, AssetPrefix: GE_, TooltipText: Damage Over Time Effect\n\nGameplay Effect with a set Duration that periodically apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Instant, BaseName: Heal, ParentClass: BP_GE_Template_Heal_Instant_C, AssetPrefix: GE_, TooltipText: Instant Heal Effect\n\nInstant Gameplay Effect that increase Health by a set amount",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Periodic, BaseName: Heal_Periodic, ParentClass: BP_GE_Template_Heal_Periodic_C, AssetPrefix: GE_, TooltipText: Heal Over Time Effect\n\nGameplay Effect with a set Duration that periodically increase the Health Attribute",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Cost, BaseName: Cost, ParentClass: BP_GE_Template_Cost_C, AssetPrefix: GE_, TooltipText: Cost Gameplay Effect\n\nInstant Gameplay meant to be used as a Cost Gameplay Effect in Abilities, substracts one more more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen, BaseName: Regen, ParentClass: BP_GE_Template_Regen_C, AssetPrefix: GE_, TooltipText: Gameplay Effect with an Infinite Duration that periodically increase one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen Negative, BaseName: Regen_Negative, ParentClass: BP_GE_Template_Regen_Negative_C, AssetPrefix: GE_, TooltipText: Gameplay Effect an with Infinite Duration that periodically decrease one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.06-20.31.40"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "should create Gameplay Effect blueprint",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.should create Gameplay Effect blueprint",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to create BP from definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 58,
+					"timestamp": "2022.08.06-20.31.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to save BP for filename: ../../../../../../runners/GASCompanion/_work/GASCompanion-Plugin/GASCompanion-Plugin/_work/TP_BlankBP/Content/Developers/GASCompanion/GSCCreationMenu/GE_Damage (/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 129,
+					"timestamp": "2022.08.06-20.31.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should have AttributeSet granted and initialized",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should have AttributeSet granted and initialized",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.06-20.31.44"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.06-20.31.44"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced using Damage Meta Attribute",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced using Damage Meta Attribute",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.06-20.31.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.06-20.31.45"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced via GameplayEffect",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced via GameplayEffect",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.06-20.31.46"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.06-20.31.46"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should spawned actor be initialized with an AbilitySystemComponent",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should spawned actor be initialized with an AbilitySystemComponent",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-4184",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.06-20.31.48"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.06-20.31.48"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
