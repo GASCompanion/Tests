@@ -1,0 +1,473 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "PC_MATERIEL_NET",
+			"instance": "PC_MATERIEL_NET-18152",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 10 (21H1) [10.0.19043.1826] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce GTX 1660",
+			"cPUModel": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+			"rAMInGB": 16,
+			"renderMode": "SM5",
+			"rHI": ""
+		}
+	],
+	"reportCreatedOn": "2022.08.07-19.12.05",
+	"succeeded": 10,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 21.808795928955078,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "has definitions",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.has definitions",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Periodic, BaseName: Damage_Periodic, ParentClass: BP_GE_Template_Damage_Periodic_C, AssetPrefix: GE_, TooltipText: Damage Over Time Effect\n\nGameplay Effect with a set Duration that periodically apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Instant, BaseName: Heal, ParentClass: BP_GE_Template_Heal_Instant_C, AssetPrefix: GE_, TooltipText: Instant Heal Effect\n\nInstant Gameplay Effect that increase Health by a set amount",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Periodic, BaseName: Heal_Periodic, ParentClass: BP_GE_Template_Heal_Periodic_C, AssetPrefix: GE_, TooltipText: Heal Over Time Effect\n\nGameplay Effect with a set Duration that periodically increase the Health Attribute",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Cost, BaseName: Cost, ParentClass: BP_GE_Template_Cost_C, AssetPrefix: GE_, TooltipText: Cost Gameplay Effect\n\nInstant Gameplay meant to be used as a Cost Gameplay Effect in Abilities, substracts one more more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen, BaseName: Regen, ParentClass: BP_GE_Template_Regen_C, AssetPrefix: GE_, TooltipText: Gameplay Effect with an Infinite Duration that periodically increase one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen Negative, BaseName: Regen_Negative, ParentClass: BP_GE_Template_Regen_Negative_C, AssetPrefix: GE_, TooltipText: Gameplay Effect an with Infinite Duration that periodically decrease one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 38,
+					"timestamp": "2022.08.07-17.11.49"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "should create Gameplay Effect blueprint",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.should create Gameplay Effect blueprint",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to create BP from definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 58,
+					"timestamp": "2022.08.07-17.11.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to save BP for filename: ../../../../../../runners/GASCompanion/_work/GASCompanion-Plugin/GASCompanion-Plugin/_work/TP_BlankBP/Content/Developers/GASCompanion/GSCCreationMenu/GE_Damage (/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
+					"lineNumber": 129,
+					"timestamp": "2022.08.07-17.11.50"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should return bound input action for a granted ability",
+			"fullTestPath": "GASCompanion.Runtime.Ability Input Binding.Should return bound input action for a granted ability",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.07-17.11.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
+					"lineNumber": 105,
+					"timestamp": "2022.08.07-17.11.51"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should have AttributeSet granted and initialized",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should have AttributeSet granted and initialized",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.07-17.11.52"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.07-17.11.52"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced using Damage Meta Attribute",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced using Damage Meta Attribute",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.07-17.11.53"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.07-17.11.53"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced via GameplayEffect",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced via GameplayEffect",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.07-17.11.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.07-17.11.54"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should spawned actor be initialized with an AbilitySystemComponent",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should spawned actor be initialized with an AbilitySystemComponent",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 28,
+					"timestamp": "2022.08.07-17.11.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "E:\\runners\\GASCompanion\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\dist\\HostProject\\Plugins\\GASCompanion\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
+					"lineNumber": 163,
+					"timestamp": "2022.08.07-17.11.55"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests./GASCompanion/Tests/FunctionalTests/F_AnimInstance_Character_Level.F_AnimInstance_Test",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.11.58"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.11.58"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: ",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1150,
+					"timestamp": "2022.08.07-17.11.58"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests./GASCompanion/Tests/FunctionalTests/F_AnimInstance_ModularCharacter_Level.F_AnimInstance_Test",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.12.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.12.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: ",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1150,
+					"timestamp": "2022.08.07-17.12.01"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests./GASCompanion/Tests/FunctionalTests/F_AnimInstance_PlayerStateModularCharacter_Level.F_AnimInstance_Test",
+			"state": "Success",
+			"deviceInstance": "PC_MATERIEL_NET-18152",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.12.04"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1414,
+					"timestamp": "2022.08.07-17.12.04"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_AnimInstance_Test_C_1: ",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
+					"lineNumber": 1150,
+					"timestamp": "2022.08.07-17.12.04"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
