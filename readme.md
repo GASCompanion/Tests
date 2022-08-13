@@ -4,7 +4,8 @@
 | ----- | ---- | ---- | ------ |
 | [5.2.3+5.0-MacEditor-b1905ea](5.2.3+5.0-MacEditor-b1905ea/index.html) | [index.json](5.2.3+5.0-MacEditor-b1905ea/index.json) | Sat, 13 Aug 2022 22:07:54 GMT | success |
 | [5.2.3+5.0-Windows-b1905ea](5.2.3+5.0-Windows-b1905ea/index.html) | [index.json](5.2.3+5.0-Windows-b1905ea/index.json) | Sat, 13 Aug 2022 22:03:52 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Sat, 13 Aug 2022 21:05:39 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Sat, 13 Aug 2022 21:09:25 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Sat, 13 Aug 2022 21:09:25 GMT | success |
 | [5.2.3+5.0-MacEditor-58f9604](5.2.3+5.0-MacEditor-58f9604/index.html) | [index.json](5.2.3+5.0-MacEditor-58f9604/index.json) | Sat, 13 Aug 2022 20:33:12 GMT | success |
 | [5.2.3+5.0-Windows-58f9604](5.2.3+5.0-Windows-58f9604/index.html) | [index.json](5.2.3+5.0-Windows-58f9604/index.json) | Sat, 13 Aug 2022 20:29:10 GMT | success |
 | [5.2.3+5.0-Windows-1fe32db](5.2.3+5.0-Windows-1fe32db/index.html) | [index.json](5.2.3+5.0-Windows-1fe32db/index.json) | Sat, 13 Aug 2022 20:13:52 GMT | success |
@@ -36,6 +37,6 @@
 
 ---
 
-Generated on Sat, 13 Aug 2022 21:05:39 GMT
+Generated on Sat, 13 Aug 2022 21:09:25 GMT
 
 
