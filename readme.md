@@ -2,6 +2,7 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.2.3+5.0-MacEditor-e1aaa25](5.2.3+5.0-MacEditor-e1aaa25/index.html) | [index.json](5.2.3+5.0-MacEditor-e1aaa25/index.json) | Sat, 13 Aug 2022 19:39:01 GMT | success |
 | [5.2.3+5.0-Windows-e1aaa25](5.2.3+5.0-Windows-e1aaa25/index.html) | [index.json](5.2.3+5.0-Windows-e1aaa25/index.json) | Sat, 13 Aug 2022 19:33:49 GMT | success |
 | [5.2.3+5.0-Windows-3f16b9c](5.2.3+5.0-Windows-3f16b9c/index.html) | [index.json](5.2.3+5.0-Windows-3f16b9c/index.json) | Sat, 13 Aug 2022 18:36:23 GMT | success |
 | [5.2.3+5.0-MacEditor-c4736ef](5.2.3+5.0-MacEditor-c4736ef/index.html) | [index.json](5.2.3+5.0-MacEditor-c4736ef/index.json) | Fri, 12 Aug 2022 21:08:30 GMT | success |
@@ -29,6 +30,6 @@
 
 ---
 
-Generated on Sat, 13 Aug 2022 17:34:13 GMT
+Generated on Sat, 13 Aug 2022 17:39:24 GMT
 
 
