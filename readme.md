@@ -2,10 +2,11 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.2.3+5.0-MacEditor-0edec6a](5.2.3+5.0-MacEditor-0edec6a/index.html) | [index.json](5.2.3+5.0-MacEditor-0edec6a/index.json) | Tue, 16 Aug 2022 17:12:51 GMT | success |
 | [5.2.3+5.0-Windows-0edec6a](5.2.3+5.0-Windows-0edec6a/index.html) | [index.json](5.2.3+5.0-Windows-0edec6a/index.json) | Tue, 16 Aug 2022 17:07:10 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 16 Aug 2022 15:07:39 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 16 Aug 2022 15:07:39 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 16 Aug 2022 15:07:39 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 16 Aug 2022 15:13:12 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 16 Aug 2022 15:13:12 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 16 Aug 2022 15:13:12 GMT | success |
 | [5.2.3+5.0-MacEditor-bad854d](5.2.3+5.0-MacEditor-bad854d/index.html) | [index.json](5.2.3+5.0-MacEditor-bad854d/index.json) | Mon, 15 Aug 2022 21:24:27 GMT | success |
 | [5.2.3+5.0-Windows-bad854d](5.2.3+5.0-Windows-bad854d/index.html) | [index.json](5.2.3+5.0-Windows-bad854d/index.json) | Mon, 15 Aug 2022 21:20:26 GMT | success |
 | [5.2.3+5.0-MacEditor-37212a9](5.2.3+5.0-MacEditor-37212a9/index.html) | [index.json](5.2.3+5.0-MacEditor-37212a9/index.json) | Mon, 15 Aug 2022 16:04:43 GMT | success |
@@ -47,6 +48,6 @@
 
 ---
 
-Generated on Tue, 16 Aug 2022 15:07:39 GMT
+Generated on Tue, 16 Aug 2022 15:13:12 GMT
 
 
