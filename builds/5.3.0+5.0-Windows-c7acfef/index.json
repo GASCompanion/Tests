@@ -1,0 +1,1466 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "PC_MATERIEL_NET",
+			"instance": "PC_MATERIEL_NET-3848AE8A4FC8251D88A49B96B16EDF3D",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 10 (22H2) [10.0.19045.2251] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce GTX 1660",
+			"cPUModel": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+			"rAMInGB": 64,
+			"renderMode": "SM5",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2022.11.15-23.00.04",
+	"succeeded": 10,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 22.168523788452148,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "has definitions",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.has definitions",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.016080498695373535,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Damage|Periodic, BaseName: Damage_Periodic, ParentClass: BP_GE_Template_Damage_Periodic_C, AssetPrefix: GE_, TooltipText: Damage Over Time Effect\n\nGameplay Effect with a set Duration that periodically apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Instant, BaseName: Heal, ParentClass: BP_GE_Template_Heal_Instant_C, AssetPrefix: GE_, TooltipText: Instant Heal Effect\n\nInstant Gameplay Effect that increase Health by a set amount",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Heal|Periodic, BaseName: Heal_Periodic, ParentClass: BP_GE_Template_Heal_Periodic_C, AssetPrefix: GE_, TooltipText: Heal Over Time Effect\n\nGameplay Effect with a set Duration that periodically increase the Health Attribute",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Abilities|Cost, BaseName: Cost, ParentClass: BP_GE_Template_Cost_C, AssetPrefix: GE_, TooltipText: Cost Gameplay Effect\n\nInstant Gameplay meant to be used as a Cost Gameplay Effect in Abilities, substracts one more more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen, BaseName: Regen, ParentClass: BP_GE_Template_Regen_C, AssetPrefix: GE_, TooltipText: Gameplay Effect with an Infinite Duration that periodically increase one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Checking against definition: MenuPath: Attributes|Regen Negative, BaseName: Regen_Negative, ParentClass: BP_GE_Template_Regen_Negative_C, AssetPrefix: GE_, TooltipText: Gameplay Effect an with Infinite Duration that periodically decrease one or more Attributes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "should create Gameplay Effect blueprint",
+			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.should create Gameplay Effect blueprint",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.099864304065704346,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to create BP from definition: MenuPath: Abilities|Damage|Instant, BaseName: Damage, ParentClass: BP_GE_Template_Damage_Instant_C, AssetPrefix: GE_, TooltipText: Instant Damage Effect\n\nInstant Gameplay Effect that apply Damage (and substracts health)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Successfully found 'Blueprint GeneratedClass' to contain \"BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\", it was \"/Script/Engine.BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\".",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Successfully found 'Blueprint NativeParentClassPath' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"/Script/CoreUObject.Class'/Script/GameplayAbilities.GameplayEffect'\".",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Successfully found 'Blueprint ParentClass' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"/Script/CoreUObject.Class'/Script/GameplayAbilities.GameplayEffect'\".",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "About to save BP for filename: ../../../../../../runners/GASCompanion/_work/GASCompanion-Plugin/GASCompanion-Plugin/_work/TP_Blank/Content/Developers/GASCompanion/GSCCreationMenu/GE_Damage (/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.40"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should return bound input action for a granted ability",
+			"fullTestPath": "GASCompanion.Runtime.Ability Input Binding.Should return bound input action for a granted ability",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.017960499972105026,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Bound Input for GameplayAbility_0 is InputAction_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "should trigger OnAttributeChange once",
+			"fullTestPath": "GASCompanion.Runtime.Core Component.should trigger OnAttributeChange once",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.036561399698257446,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Received gameplay event ... GASCompanionTests.Event.AttributeChangeCalled - TimesCalled: 1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "New Health: 990.000000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Tags: (GameplayTags=)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should have AttributeSet granted and initialized",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should have AttributeSet granted and initialized",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.020351000130176544,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced using Damage Meta Attribute",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced using Damage Meta Attribute",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.014565300196409225,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should health be reduced via GameplayEffect",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced via GameplayEffect",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.014992602169513702,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Should spawned actor be initialized with an AbilitySystemComponent",
+			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should spawned actor be initialized with an AbilitySystemComponent",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 0.015235401690006256,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Before Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "After Each ...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.41"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "F_GameFeature_GASCompanion_Test",
+			"fullTestPath": "Project.Functional Tests.eature_GSC_Test.GASCompanion.F_GameFeature_Pawn.F_GameFeature_Level.F_GameFeature_GASCompanion_Test",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 10.968690872192383,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one abilities granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (First ability name matching the one granted from Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one attribute set granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has Attribute Set granted from Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Float assertion passed (Attribute Health initialized to expected value)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Abilities are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Attributes are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Effects are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.42"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.45"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.48"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.48"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_2, Avatar: BP_Test_GameFeature_Character_C_2, Original Actor: BP_Test_GameFeature_Character_C_2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.52"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Done Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.52"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.52"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "F_GameFeature_GASCompanion_PlayerState_Test",
+			"fullTestPath": "Project.Functional Tests.eature_GSC_Test.GASCompanion.F_GameFeature_PlayerState.F_GameFeature_PlayerState_Level.F_GameFeature_GASCompanion_PlayerState_Test",
+			"state": "Success",
+			"deviceInstance": [],
+			"duration": 10.964221954345703,
+			"dateTime": "0001.01.01-00.00.00",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one abilities granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (First ability name matching the one granted from Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one attribute set granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has Attribute Set granted from Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Float assertion passed (Attribute Health initialized to expected value)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Enabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Abilities are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Attributes are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Disabled",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Effects are removed on Game Feature deactivation)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.54"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-21.59.57"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.00"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.00"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_1, Original Actor: GSCModularPlayerState_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.01"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_3",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.04"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Done Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.04"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2022.11.15-22.00.04"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
