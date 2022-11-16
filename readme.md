@@ -2,10 +2,11 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.3.0+5.0-Windows-8f207c0](5.3.0+5.0-Windows-8f207c0/index.html) | [index.json](5.3.0+5.0-Windows-8f207c0/index.json) | Wed, 16 Nov 2022 01:25:51 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 16 Nov 2022 00:26:14 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 16 Nov 2022 00:26:14 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 16 Nov 2022 00:26:14 GMT | success |
 | [5.3.0+5.0-Windows-c7acfef](5.3.0+5.0-Windows-c7acfef/index.html) | [index.json](5.3.0+5.0-Windows-c7acfef/index.json) | Tue, 15 Nov 2022 23:00:04 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 15 Nov 2022 22:00:26 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 15 Nov 2022 22:00:26 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 15 Nov 2022 22:00:26 GMT | success |
 | [5.2.3+5.0-MacEditor-05cf5d0](5.2.3+5.0-MacEditor-05cf5d0/index.html) | [index.json](5.2.3+5.0-MacEditor-05cf5d0/index.json) | Tue, 16 Aug 2022 17:29:11 GMT | success |
 | [5.2.3+5.0-Windows-05cf5d0](5.2.3+5.0-Windows-05cf5d0/index.html) | [index.json](5.2.3+5.0-Windows-05cf5d0/index.json) | Tue, 16 Aug 2022 17:23:18 GMT | success |
 | [5.2.3+5.0-MacEditor-0edec6a](5.2.3+5.0-MacEditor-0edec6a/index.html) | [index.json](5.2.3+5.0-MacEditor-0edec6a/index.json) | Tue, 16 Aug 2022 17:12:51 GMT | success |
@@ -51,6 +52,6 @@
 
 ---
 
-Generated on Tue, 15 Nov 2022 22:00:26 GMT
+Generated on Wed, 16 Nov 2022 00:26:14 GMT
 
 
