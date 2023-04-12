@@ -2,12 +2,13 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.3.2-5.0-WindowsEditor-781defe](5.3.2-5.0-WindowsEditor-781defe/index.html) | [index.json](5.3.2-5.0-WindowsEditor-781defe/index.json) | Wed, 12 Apr 2023 14:50:57 GMT | success |
 | [5.3.2-5.1-WindowsEditor-781defe](5.3.2-5.1-WindowsEditor-781defe/index.html) | [index.json](5.3.2-5.1-WindowsEditor-781defe/index.json) | Wed, 12 Apr 2023 14:46:32 GMT | success |
 | [5.3.2-5.1-WindowsEditor-8be87ed](5.3.2-5.1-WindowsEditor-8be87ed/index.html) | [index.json](5.3.2-5.1-WindowsEditor-8be87ed/index.json) | Wed, 12 Apr 2023 13:45:39 GMT | success |
 | [5.3.2-5.0-WindowsEditor-8be87ed](5.3.2-5.0-WindowsEditor-8be87ed/index.html) | [index.json](5.3.2-5.0-WindowsEditor-8be87ed/index.json) | Wed, 12 Apr 2023 13:41:15 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 12 Apr 2023 12:46:56 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 12 Apr 2023 12:46:56 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 12 Apr 2023 12:46:56 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 12 Apr 2023 12:51:27 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 12 Apr 2023 12:51:27 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 12 Apr 2023 12:51:27 GMT | success |
 | [5.3.2-5.1-WindowsEditor-a943263](5.3.2-5.1-WindowsEditor-a943263/index.html) | [index.json](5.3.2-5.1-WindowsEditor-a943263/index.json) | Thu, 30 Mar 2023 12:33:05 GMT | success |
 | [5.3.2-5.0-WindowsEditor-a943263](5.3.2-5.0-WindowsEditor-a943263/index.html) | [index.json](5.3.2-5.0-WindowsEditor-a943263/index.json) | Thu, 30 Mar 2023 12:28:47 GMT | success |
 | [5.3.1+5.1-MacEditor-3e2945f](5.3.1+5.1-MacEditor-3e2945f/index.html) | [index.json](5.3.1+5.1-MacEditor-3e2945f/index.json) | Sun, 27 Nov 2022 21:23:01 GMT | success |
@@ -62,6 +63,6 @@
 
 ---
 
-Generated on Wed, 12 Apr 2023 12:46:56 GMT
+Generated on Wed, 12 Apr 2023 12:51:27 GMT
 
 
