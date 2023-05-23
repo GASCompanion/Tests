@@ -2,7 +2,7 @@
 	"devices": [
 		{
 			"deviceName": "DESKTOP-TAT57NG",
-			"instance": "DESKTOP-TAT57NG-23132",
+			"instance": "DESKTOP-TAT57NG-4E9B31FA4EFC16B7ABF90FB8F33D994A-096167254F0B53B1E76EEEBBAE1B3E6F",
 			"platform": "WindowsEditor",
 			"oSVersion": "Windows 11 (22H2) [10.0.22621.1702] ",
 			"model": "Default",
@@ -10,16 +10,17 @@
 			"cPUModel": "AMD Ryzen 9 7950X 16-Core Processor            ",
 			"rAMInGB": 64,
 			"renderMode": "SM5",
-			"rHI": ""
+			"rHI": "",
+			"appInstanceLog": ""
 		}
 	],
-	"reportCreatedOn": "2023.05.23-15.53.00",
+	"reportCreatedOn": "2023.05.23-16.13.56",
 	"succeeded": 13,
 	"succeededWithWarnings": 0,
 	"failed": 0,
 	"notRun": 0,
 	"inProcess": 0,
-	"totalDuration": 47.095169067382812,
+	"totalDuration": 31.543516159057617,
 	"comparisonExported": false,
 	"comparisonExportDirectory": "",
 	"tests": [
@@ -27,7 +28,9 @@
 			"testDisplayName": "has definitions",
 			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.has definitions",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.029624801129102707,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -37,9 +40,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -49,9 +52,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -61,9 +64,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -73,9 +76,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -85,9 +88,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -97,9 +100,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				},
 				{
 					"event":
@@ -109,9 +112,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 50,
-					"timestamp": "2023.05.23-13.52.07"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.22"
 				}
 			],
 			"warnings": 0,
@@ -122,7 +125,9 @@
 			"testDisplayName": "should create Gameplay Effect blueprint",
 			"fullTestPath": "GASCompanion.Editor.GSCCreationMenu.Gameplay Effects.should create Gameplay Effect blueprint",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.053981997072696686,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -132,45 +137,45 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 70,
-					"timestamp": "2023.05.23-13.52.08"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Successfully found 'Blueprint GeneratedClass' to contain \"BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\", it was \"BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\".",
+						"message": "Successfully found 'Blueprint GeneratedClass' to contain \"BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\", it was \"/Script/Engine.BlueprintGeneratedClass'/Game/Developers/GASCompanion/GSCCreationMenu/GE_Damage.GE_Damage_C'\".",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 110,
-					"timestamp": "2023.05.23-13.52.08"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Successfully found 'Blueprint NativeParentClassPath' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"Class'/Script/GameplayAbilities.GameplayEffect'\".",
+						"message": "Successfully found 'Blueprint NativeParentClassPath' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"/Script/CoreUObject.Class'/Script/GameplayAbilities.GameplayEffect'\".",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 118,
-					"timestamp": "2023.05.23-13.52.08"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Successfully found 'Blueprint ParentClass' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"Class'/Script/GameplayAbilities.GameplayEffect'\".",
+						"message": "Successfully found 'Blueprint ParentClass' to contain \"Class'/Script/GameplayAbilities.GameplayEffect'\", it was \"/Script/CoreUObject.Class'/Script/GameplayAbilities.GameplayEffect'\".",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 126,
-					"timestamp": "2023.05.23-13.52.08"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -180,9 +185,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanionEditor\\Private\\Tests\\GSCCreationMenu.spec.cpp",
-					"lineNumber": 140,
-					"timestamp": "2023.05.23-13.52.08"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				}
 			],
 			"warnings": 0,
@@ -193,7 +198,9 @@
 			"testDisplayName": "Should return bound input action for a granted ability",
 			"fullTestPath": "GASCompanion.Runtime.Ability Input Binding.Should return bound input action for a granted ability",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.014531698077917099,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -203,9 +210,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
-					"lineNumber": 30,
-					"timestamp": "2023.05.23-13.52.09"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -215,9 +222,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
-					"lineNumber": 102,
-					"timestamp": "2023.05.23-13.52.09"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -227,9 +234,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\AbilityInputBinding.spec.cpp",
-					"lineNumber": 110,
-					"timestamp": "2023.05.23-13.52.09"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				}
 			],
 			"warnings": 0,
@@ -240,7 +247,9 @@
 			"testDisplayName": "should trigger OnAttributeChange once",
 			"fullTestPath": "GASCompanion.Runtime.Core Component.should trigger OnAttributeChange once",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.023589398711919785,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -250,9 +259,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\CoreComponent.spec.cpp",
-					"lineNumber": 82,
-					"timestamp": "2023.05.23-13.52.11"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -262,9 +271,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\CoreComponent.spec.cpp",
-					"lineNumber": 100,
-					"timestamp": "2023.05.23-13.52.11"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -274,9 +283,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\CoreComponent.spec.cpp",
-					"lineNumber": 109,
-					"timestamp": "2023.05.23-13.52.11"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -286,9 +295,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\CoreComponent.spec.cpp",
-					"lineNumber": 118,
-					"timestamp": "2023.05.23-13.52.11"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				}
 			],
 			"warnings": 0,
@@ -299,7 +308,9 @@
 			"testDisplayName": "Should have AttributeSet granted and initialized",
 			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should have AttributeSet granted and initialized",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.012259501963853836,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -309,9 +320,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 28,
-					"timestamp": "2023.05.23-13.52.12"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				},
 				{
 					"event":
@@ -321,9 +332,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 163,
-					"timestamp": "2023.05.23-13.52.12"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.23"
 				}
 			],
 			"warnings": 0,
@@ -334,7 +345,9 @@
 			"testDisplayName": "Should health be reduced using Damage Meta Attribute",
 			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced using Damage Meta Attribute",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.012474101036787033,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -344,9 +357,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 28,
-					"timestamp": "2023.05.23-13.52.13"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				},
 				{
 					"event":
@@ -356,9 +369,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 163,
-					"timestamp": "2023.05.23-13.52.13"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				}
 			],
 			"warnings": 0,
@@ -369,7 +382,9 @@
 			"testDisplayName": "Should health be reduced via GameplayEffect",
 			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should health be reduced via GameplayEffect",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.012153197079896927,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -379,9 +394,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 28,
-					"timestamp": "2023.05.23-13.52.14"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				},
 				{
 					"event":
@@ -391,9 +406,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 163,
-					"timestamp": "2023.05.23-13.52.14"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				}
 			],
 			"warnings": 0,
@@ -404,7 +419,9 @@
 			"testDisplayName": "Should spawned actor be initialized with an AbilitySystemComponent",
 			"fullTestPath": "GASCompanion.Runtime.Modular Characters.Should spawned actor be initialized with an AbilitySystemComponent",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 0.012987297028303146,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
@@ -414,9 +431,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 28,
-					"timestamp": "2023.05.23-13.52.15"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				},
 				{
 					"event":
@@ -426,9 +443,9 @@
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Source\\GASCompanionTests\\Private\\Tests\\ModularCharacters.spec.cpp",
-					"lineNumber": 163,
-					"timestamp": "2023.05.23-13.52.15"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.24"
 				}
 			],
 			"warnings": 0,
@@ -437,441 +454,479 @@
 		},
 		{
 			"testDisplayName": "F_GameFeature_GASCompanion_Test",
-			"fullTestPath": "Project.Functional Tests./GameFeature_GSC_Test/GASCompanion/F_GameFeature_Pawn/F_GameFeature_Level.F_GameFeature_GASCompanion_Test",
+			"fullTestPath": "Project.Functional Tests.GameFeature_GSC_Test.GASCompanion.F_GameFeature_Pawn.F_GameFeature_Level.F_GameFeature_GASCompanion_Test",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 12.904275894165039,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Abilities Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one abilities granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Has at least one abilities granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (First ability name matching the one granted from Game Feature)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (First ability name matching the one granted from Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Attributes Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one attribute set granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Has at least one attribute set granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has Attribute Set granted from Game Feature)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Has Attribute Set granted from Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Float assertion passed (Attribute Health initialized to expected value)",
+						"message": "F_GameFeature_GASCompanion_Test: Float assertion passed (Attribute Health initialized to expected value)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1324,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Effects Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Abilities Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Abilities are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Abilities are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Attributes Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Attributes are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Attributes are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_Test: Test Effects Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Effects are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Effects are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "F_GameFeature_GASCompanion_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.24"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.27"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.27"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.29"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.29"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.25"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "F_GameFeature_GASCompanion_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.29"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.28"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.28"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.30"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Respawn",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_0, Avatar: BP_Test_GameFeature_Character_C_0, Original Actor: BP_Test_GameFeature_Character_C_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.30"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Input After Respawn",
+						"message": "F_GameFeature_GASCompanion_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.30"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
+						"message": "F_GameFeature_GASCompanion_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.33"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_2, Avatar: BP_Test_GameFeature_Character_C_2, Original Actor: BP_Test_GameFeature_Character_C_2",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.33"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "F_GameFeature_GASCompanion_Test: Try Respawn",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.32"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.34"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_0",
+						"message": "F_GameFeature_GASCompanion_Test: Try Input After Respawn",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.36"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.34"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Done Input After Respawn",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_1, Avatar: BP_Test_GameFeature_Character_C_1, Original Actor: BP_Test_GameFeature_Character_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.36"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.34"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: BP_Test_GameFeature_Character_C_2, Avatar: BP_Test_GameFeature_Character_C_2, Original Actor: BP_Test_GameFeature_Character_C_2",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.36"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.34"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: ",
+						"message": "F_GameFeature_GASCompanion_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1150,
-					"timestamp": "2023.05.23-13.52.36"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.34"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.37"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test: Done Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.37"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.37"
 				}
 			],
 			"warnings": 0,
@@ -880,393 +935,431 @@
 		},
 		{
 			"testDisplayName": "F_GameFeature_GASCompanion_PlayerState_Test",
-			"fullTestPath": "Project.Functional Tests./GameFeature_GSC_Test/GASCompanion/F_GameFeature_PlayerState/F_GameFeature_PlayerState_Level.F_GameFeature_GASCompanion_PlayerState_Test",
+			"fullTestPath": "Project.Functional Tests.GameFeature_GSC_Test.GASCompanion.F_GameFeature_PlayerState.F_GameFeature_PlayerState_Level.F_GameFeature_GASCompanion_PlayerState_Test",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 12.948625564575195,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Abilities Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one abilities granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Has at least one abilities granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (First ability name matching the one granted from Game Feature)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (First ability name matching the one granted from Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Attributes Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one attribute set granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Has at least one attribute set granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has Attribute Set granted from Game Feature)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Has Attribute Set granted from Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Float assertion passed (Attribute Health initialized to expected value)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Float assertion passed (Attribute Health initialized to expected value)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1324,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Enabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Effects Feature Enabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Has at least one gameplay effect granted from the Game Feature)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1404,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Abilities Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Abilities Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Abilities are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Abilities are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Attributes Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Attributes Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Attributes are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Attributes are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Test Effects Feature Disabled",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Test Effects Feature Disabled",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Effects are removed on Game Feature deactivation)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Effects are removed on Game Feature deactivation)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: Attempting to cancel transition for Game Feature GameFeature_GSC_Test. Desired [Active, Active]. Current [Terminal, Loaded]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.38"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.41"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.41"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.42"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "LogGameFeatures: ChangeGameFeatureDestination: OnCanceled, set Game Feature GameFeature_GSC_Test Destination State to [Active, Active]",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.42"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.38"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_1",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.41"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.41"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Respawn",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_0, Original Actor: GSCModularPlayerState_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.43"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Input After Respawn",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.43"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_1, Original Actor: GSCModularPlayerState_0",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_2",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanion\\Source\\GASCompanion\\Private\\GameFeatures\\Actions\\GSCGameFeatureAction_AddAbilities.cpp",
-					"lineNumber": 181,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.46"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Try Activate granted ability via Input",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.46"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.46"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_3",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Try Respawn",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.50"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.47"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Done Input After Respawn",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Try Input After Respawn",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "C:\\runners\\GSC\\_work\\GASCompanion-Plugin\\GASCompanion-Plugin\\_work\\TP_Blank\\Plugins\\GASCompanionTests\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\GASCompanionTestUtils\\GASCompanionTestsBlueprintLibrary.gen.cpp",
-					"lineNumber": 26,
-					"timestamp": "2023.05.23-13.52.50"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.47"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"message": "LogAbilitySystemCompanion: Trying to add actor abilities from Game Feature action for Owner: GSCModularPlayerState_0, Avatar: BP_Test_GameFeature_PlayerState_Character_C_1, Original Actor: GSCModularPlayerState_0",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.50"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.47"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_GameFeature_GASCompanion_Test_C_1: ",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Try Activate granted ability via Input",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1150,
-					"timestamp": "2023.05.23-13.52.50"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.47"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Received Event: Ability Ended GA_GameFeatureTest_Jump_C_3",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.50"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Done Input After Respawn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.50"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "F_GameFeature_GASCompanion_PlayerState_Test: Assertion passed (Received Input Event, meaning ability activation via input was successful)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.50"
 				}
 			],
 			"warnings": 0,
@@ -1275,45 +1368,35 @@
 		},
 		{
 			"testDisplayName": "F_AnimInstance_Test",
-			"fullTestPath": "Project.Functional Tests./GASCompanionTests/FunctionalTests/F_AnimInstance/F_AnimInstance_Character_Level.F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests.GASCompanionTests.FunctionalTests.F_AnimInstance.F_AnimInstance_Character_Level.F_AnimInstance_Test",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 1.84153151512146,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.53"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.53"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.53"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: ",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1150,
-					"timestamp": "2023.05.23-13.52.53"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.53"
 				}
 			],
 			"warnings": 0,
@@ -1322,45 +1405,35 @@
 		},
 		{
 			"testDisplayName": "F_AnimInstance_Test",
-			"fullTestPath": "Project.Functional Tests./GASCompanionTests/FunctionalTests/F_AnimInstance/F_AnimInstance_ModularCharacter_Level.F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests.GASCompanionTests.FunctionalTests.F_AnimInstance.F_AnimInstance_ModularCharacter_Level.F_AnimInstance_Test",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 1.8421940803527832,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.56"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.55"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.56"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: ",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1150,
-					"timestamp": "2023.05.23-13.52.56"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.55"
 				}
 			],
 			"warnings": 0,
@@ -1369,45 +1442,35 @@
 		},
 		{
 			"testDisplayName": "F_AnimInstance_Test",
-			"fullTestPath": "Project.Functional Tests./GASCompanionTests/FunctionalTests/F_AnimInstance/F_AnimInstance_PlayerStateModularCharacter_Level.F_AnimInstance_Test",
+			"fullTestPath": "Project.Functional Tests.GASCompanionTests.FunctionalTests.F_AnimInstance.F_AnimInstance_PlayerStateModularCharacter_Level.F_AnimInstance_Test",
 			"state": "Success",
-			"deviceInstance": "DESKTOP-TAT57NG-23132",
+			"deviceInstance": [],
+			"duration": 1.8352864980697632,
+			"dateTime": "0001.01.01-00.00.00",
 			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Jump property succesfully turned true on Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.59"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.56"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
+						"message": "F_AnimInstance_Test: Assertion passed (Anim Instance Tag Count property was succesfully updated while Jumping)",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1414,
-					"timestamp": "2023.05.23-13.52.59"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "F_AnimInstance_Test_C_1: ",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "D:\\build\\++UE5\\Sync\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\FunctionalTesting\\FunctionalTest.gen.cpp",
-					"lineNumber": 1150,
-					"timestamp": "2023.05.23-13.52.59"
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2023.05.23-14.13.56"
 				}
 			],
 			"warnings": 0,
