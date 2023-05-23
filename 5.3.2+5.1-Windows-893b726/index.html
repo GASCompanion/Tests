@@ -342,15 +342,10 @@
         <p class="compare-artifact">
             <span style="display: table-row;">{name}</span>
             <div>
-                {?files.approved}
                 <img style="height: 100px" class="lazy lightbox shadow-border" data-original="{files.approved}" data-featherlight="{files.approved}" />
-                {/files.approved}
-                {?files.difference}
                 <img style="height: 100px" class="lazy lightbox shadow-border" data-original="{files.difference}" data-featherlight="{files.difference}" />
-                {/files.difference}
                 <img style="height: 100px" class="lazy lightbox shadow-border" data-original="{files.unapproved}" data-featherlight="{files.unapproved}" />
             </div>
-            {?files.difference}
             <div style="width: 885px; height: 500px;" class="shadow-border">
                 <div class="twentytwenty-container">
                     <!-- The before image is first -->
@@ -359,7 +354,6 @@
                     <img style="width: 885px; height: 500px;" class="lazy" data-original="{files.unapproved}" />
                 </div>
             </div>
-            {/files.difference}
         </p>
     </script>
 
