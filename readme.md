@@ -2,11 +2,12 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.3.2-5.0-WindowsEditor-17532b4](5.3.2-5.0-WindowsEditor-17532b4/index.html) | [index.json](5.3.2-5.0-WindowsEditor-17532b4/index.json) | Tue, 27 Jun 2023 20:03:37 GMT | success |
 | [5.3.2-5.1-WindowsEditor-17532b4](5.3.2-5.1-WindowsEditor-17532b4/index.html) | [index.json](5.3.2-5.1-WindowsEditor-17532b4/index.json) | Tue, 27 Jun 2023 19:59:10 GMT | success |
 | [5.3.2-5.0-WindowsEditor-a535932](5.3.2-5.0-WindowsEditor-a535932/index.html) | [index.json](5.3.2-5.0-WindowsEditor-a535932/index.json) | Tue, 27 Jun 2023 19:27:54 GMT | error |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 27 Jun 2023 17:59:31 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 27 Jun 2023 17:59:31 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 27 Jun 2023 17:59:30 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 27 Jun 2023 18:03:59 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 27 Jun 2023 18:03:59 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 27 Jun 2023 18:03:59 GMT | success |
 | [5.3.2-5.0-WindowsEditor-f731f65](5.3.2-5.0-WindowsEditor-f731f65/index.html) | [index.json](5.3.2-5.0-WindowsEditor-f731f65/index.json) | Sun, 25 Jun 2023 22:03:21 GMT | success |
 | [5.3.2-5.1-WindowsEditor-f731f65](5.3.2-5.1-WindowsEditor-f731f65/index.html) | [index.json](5.3.2-5.1-WindowsEditor-f731f65/index.json) | Sun, 25 Jun 2023 21:57:57 GMT | success |
 | [5.3.2-5.0-WindowsEditor-86ac5d9](5.3.2-5.0-WindowsEditor-86ac5d9/index.html) | [index.json](5.3.2-5.0-WindowsEditor-86ac5d9/index.json) | Sat, 24 Jun 2023 18:07:43 GMT | success |
@@ -76,6 +77,6 @@
 
 ---
 
-Generated on Tue, 27 Jun 2023 17:59:31 GMT
+Generated on Tue, 27 Jun 2023 18:03:59 GMT
 
 
