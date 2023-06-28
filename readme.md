@@ -2,13 +2,14 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [5.3.2-5.0-WindowsEditor-9eb7711](5.3.2-5.0-WindowsEditor-9eb7711/index.html) | [index.json](5.3.2-5.0-WindowsEditor-9eb7711/index.json) | Wed, 28 Jun 2023 21:38:36 GMT | success |
 | [5.3.2-5.0-WindowsEditor-5d145fb](5.3.2-5.0-WindowsEditor-5d145fb/index.html) | [index.json](5.3.2-5.0-WindowsEditor-5d145fb/index.json) | Wed, 28 Jun 2023 20:03:37 GMT | success |
 | [5.3.2-5.1-WindowsEditor-5d145fb](5.3.2-5.1-WindowsEditor-5d145fb/index.html) | [index.json](5.3.2-5.1-WindowsEditor-5d145fb/index.json) | Wed, 28 Jun 2023 19:54:32 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 28 Jun 2023 19:38:58 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 28 Jun 2023 19:38:58 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 28 Jun 2023 19:38:58 GMT | success |
 | [5.3.2-5.1-WindowsEditor-e2aaec7](5.3.2-5.1-WindowsEditor-e2aaec7/index.html) | [index.json](5.3.2-5.1-WindowsEditor-e2aaec7/index.json) | Wed, 28 Jun 2023 18:13:22 GMT | success |
 | [5.3.2-5.0-WindowsEditor-e2aaec7](5.3.2-5.0-WindowsEditor-e2aaec7/index.html) | [index.json](5.3.2-5.0-WindowsEditor-e2aaec7/index.json) | Wed, 28 Jun 2023 18:06:28 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 28 Jun 2023 18:04:06 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 28 Jun 2023 18:04:06 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 28 Jun 2023 18:04:06 GMT | success |
 | [5.3.2-5.2-WindowsEditor-c584b9a](5.3.2-5.2-WindowsEditor-c584b9a/index.html) | [index.json](5.3.2-5.2-WindowsEditor-c584b9a/index.json) | Wed, 28 Jun 2023 13:30:23 GMT | success |
 | [5.3.2-5.0-WindowsEditor-c584b9a](5.3.2-5.0-WindowsEditor-c584b9a/index.html) | [index.json](5.3.2-5.0-WindowsEditor-c584b9a/index.json) | Wed, 28 Jun 2023 13:26:32 GMT | success |
 | [5.3.2-5.1-WindowsEditor-c584b9a](5.3.2-5.1-WindowsEditor-c584b9a/index.html) | [index.json](5.3.2-5.1-WindowsEditor-c584b9a/index.json) | Wed, 28 Jun 2023 13:21:28 GMT | success |
@@ -88,6 +89,6 @@
 
 ---
 
-Generated on Wed, 28 Jun 2023 18:04:06 GMT
+Generated on Wed, 28 Jun 2023 19:38:58 GMT
 
 
