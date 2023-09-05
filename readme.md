@@ -2,12 +2,13 @@
 
 | Build | Json | Date | Status |
 | ----- | ---- | ---- | ------ |
+| [6.0.0-5.2-WindowsEditor-d54d909](6.0.0-5.2-WindowsEditor-d54d909/index.html) | [index.json](6.0.0-5.2-WindowsEditor-d54d909/index.json) | Tue, 05 Sep 2023 13:46:10 GMT | success |
+| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Tue, 05 Sep 2023 11:46:33 GMT | success |
+| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Tue, 05 Sep 2023 11:46:32 GMT | success |
+| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Tue, 05 Sep 2023 11:46:32 GMT | success |
 | [6.0.0-5.3-WindowsEditor-1dd0ec7](6.0.0-5.3-WindowsEditor-1dd0ec7/index.html) | [index.json](6.0.0-5.3-WindowsEditor-1dd0ec7/index.json) | Wed, 02 Aug 2023 18:38:43 GMT | success |
 | [6.0.0-5.2-WindowsEditor-1dd0ec7](6.0.0-5.2-WindowsEditor-1dd0ec7/index.html) | [index.json](6.0.0-5.2-WindowsEditor-1dd0ec7/index.json) | Wed, 02 Aug 2023 18:34:42 GMT | success |
 | [6.0.0-5.1-WindowsEditor-1dd0ec7](6.0.0-5.1-WindowsEditor-1dd0ec7/index.html) | [index.json](6.0.0-5.1-WindowsEditor-1dd0ec7/index.json) | Wed, 02 Aug 2023 18:30:35 GMT | success |
-| [5.2.3+5.0-Windows-c572ebd](5.2.3+5.0-Windows-c572ebd/index.html) | [index.json](5.2.3+5.0-Windows-c572ebd/index.json) | Wed, 02 Aug 2023 16:39:07 GMT | success |
-| [5.2.3+5.0-MacEditor-c572ebd](5.2.3+5.0-MacEditor-c572ebd/index.html) | [index.json](5.2.3+5.0-MacEditor-c572ebd/index.json) | Wed, 02 Aug 2023 16:39:07 GMT | success |
-| [5.2.3+5.0-MacEditor-3db8e27](5.2.3+5.0-MacEditor-3db8e27/index.html) | [index.json](5.2.3+5.0-MacEditor-3db8e27/index.json) | Wed, 02 Aug 2023 16:39:07 GMT | success |
 | [5.3.2-5.2-WindowsEditor-50136ed](5.3.2-5.2-WindowsEditor-50136ed/index.html) | [index.json](5.3.2-5.2-WindowsEditor-50136ed/index.json) | Wed, 28 Jun 2023 22:30:47 GMT | success |
 | [5.3.2-5.1-WindowsEditor-50136ed](5.3.2-5.1-WindowsEditor-50136ed/index.html) | [index.json](5.3.2-5.1-WindowsEditor-50136ed/index.json) | Wed, 28 Jun 2023 22:26:29 GMT | success |
 | [5.3.2-5.0-WindowsEditor-50136ed](5.3.2-5.0-WindowsEditor-50136ed/index.html) | [index.json](5.3.2-5.0-WindowsEditor-50136ed/index.json) | Wed, 28 Jun 2023 22:19:31 GMT | success |
@@ -97,6 +98,6 @@
 
 ---
 
-Generated on Wed, 02 Aug 2023 16:39:07 GMT
+Generated on Tue, 05 Sep 2023 11:46:33 GMT
 
 
